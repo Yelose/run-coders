@@ -6,8 +6,9 @@
 				<div class="card-header">
 					<div style="display: flex; justify-content: space-between; align-items: center;">
 						<div class="float-left">
-							<h4><i class="fab fa-laravel text-info"></i>
-							Nuestras Atletas </h4>
+							<h4>
+                                <i class="fab fa-laravel text-info"></i>
+							Listado de Atletas</h4>
 						</div>
 						<div wire:poll.60s>
 							<code><h5>{{ now()->format('H:i:s') }}</h5></code>
@@ -61,4 +62,3 @@
 		</div>
 	</div>
 </div>
-
