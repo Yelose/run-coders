@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('Welcome'))
+@section('title', __('Inicio'))
 @section('content')
 <div class="container-fluid">
 <div class="row justify-content-center">
@@ -20,6 +20,8 @@
             </div>
         </div>
     </div>
+    <x-banner/>
+
 </div>
 
 
