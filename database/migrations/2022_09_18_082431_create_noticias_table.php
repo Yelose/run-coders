@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string("piefoto");
             $table->string("subtitulo");
             $table->longText("noticia");
-            $table->date("fecha");
+            $table->string("fecha");
             $table->timestamps();
         });
     }

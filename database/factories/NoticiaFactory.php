@@ -13,11 +13,12 @@ class NoticiaFactory extends Factory
     public function definition()
     {
         return [
-			'titular' => $this->faker->name,
-			'imagen' => $this->faker->name,
-			'subtitulo' => $this->faker->name,
-			'noticia' => $this->faker->name,
-			'fecha' => $this->faker->name,
+            'titular' => $this->faker->name,
+            'imagen' => $this->faker->name,
+            'piefoto' => $this->faker->name,
+            'subtitulo' => $this->faker->name,
+            'noticia' => $this->faker->paragraph(3),
+            'fecha' => $this->faker->name,
         ];
     }
 }
